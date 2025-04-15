@@ -43,7 +43,8 @@ async function run(cookie, games) {
     url.searchParams.set('lang', 'en-us')
 
     const body = JSON.stringify({
-      lang: 'en-us',
+      // lang: 'en-us',
+      lang: 'th-th',
       act_id: actId
     })
 
